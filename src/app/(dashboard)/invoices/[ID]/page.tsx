@@ -12,7 +12,7 @@ import { notFound } from "next/navigation";
 import { PaymentSection } from "./_components/payment-section";
 import { getInvoice } from "./helpers";
 export const metadata: Metadata = {
-  title: "Invoice Payment | EasyInvoice",
+  title: "Invoice Payment | Request Commerce",
   description: "Process payment for your invoice",
 };
 

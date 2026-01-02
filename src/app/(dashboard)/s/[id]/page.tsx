@@ -6,7 +6,7 @@ import { SubscriptionPlanPreview } from "./_components/subscription-plan-preview
 import { getSubscriptionPlan } from "./helpers";
 
 export const metadata: Metadata = {
-  title: "Subscribe | EasyInvoice",
+  title: "Subscribe | Request Commerce",
   description: "Subscribe to a service provider",
 };
 

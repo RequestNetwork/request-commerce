@@ -439,8 +439,8 @@ export function PaymentSection({ serverInvoice }: PaymentSectionProps) {
                 {formatCurrencyLabel(invoice.invoiceCurrency)}
               </span>{" "}
               on a mainnet blockchain, which means you'll be transferring{" "}
-              <span className="font-bold">actual value</span>. EasyInvoice is a
-              demonstration app and all blockchain transactions are
+              <span className="font-bold">actual value</span>. Request Commerce
+              is a demonstration app and all blockchain transactions are
               irreversible.
             </p>
           </div>

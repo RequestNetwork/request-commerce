@@ -22,10 +22,10 @@ export function Header({ user }: { user?: User | undefined }) {
           className="flex items-center gap-x-2"
         >
           <div className="w-10 h-10 rounded-xl bg-primary flex items-center justify-center">
-            <span className="text-primary-foreground font-bold">EI</span>
+            <span className="text-primary-foreground font-bold">RC</span>
           </div>
           <span className="text-xl font-semibold text-foreground">
-            EasyInvoice
+            Request Commerce
           </span>
         </Link>
 

@@ -1,6 +1,6 @@
 {
   "name": "request-commerce",
-  "description": "A Request Network demo app for easy invoice creation using Request API",
+  "description": "A Request Network demo app for commerce and invoice management using Request API",
   "version": "0.14.0",
   "license": "MIT",
   "packageManager": "pnpm@10.0.0",

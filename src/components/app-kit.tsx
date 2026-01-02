@@ -12,9 +12,10 @@ import {
 import { createAppKit } from "@reown/appkit/react";
 
 const metadata = {
-  name: "Easy Invoice",
-  description: "Easy Invoice is a simple and secure invoice payment platform.",
-  url: "https://easyinvoice.request.network",
+  name: "Request Commerce",
+  description:
+    "Request Commerce is a simple and secure invoice payment platform.",
+  url: "https://commerce.request.network",
   icons: ["./assets/logo.svg"],
 };
 
