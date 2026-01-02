@@ -1,15 +1,23 @@
 version: "3.3"
 
 services:
-  # postgresql://easy-invoice:easy-invoice@localhost:7406/easy-invoice
+  # postgresql://request-commerce:request-commerce@localhost:54329/request-commerce
   postgres:
     image: postgres:16-alpine
     environment:
-      POSTGRES_USER: easy-invoice
-      POSTGRES_PASSWORD: easy-invoice
-      POSTGRES_DB: easy-invoice
+      POSTGRES_USER: request-commerce
+      POSTGRES_PASSWORD: request-commerce
+      POSTGRES_DB: request-commerce
       POSTGRES_HOST: postgres
     ports:
-      - "7406:5432"
+      - "54329:5432"
     volumes:
       - ./postgres-data:/var/lib/postgresql/data
+
+  # redis://localhost:63791
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "63791:6379"
+    volumes:
+      - ./redis-data:/data
