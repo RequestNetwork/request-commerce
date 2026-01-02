@@ -75,7 +75,7 @@ export default async function NotFound() {
 
           {user ? (
             <Link
-              href="/subscription-plans"
+              href="/subscriptions"
               className="shadow-md group p-6 bg-card rounded-lg border border-border hover:bg-accent transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
             >
               <div className="w-12 h-12 rounded-lg bg-green-100 dark:bg-green-900/30 flex items-center justify-center mx-auto mb-4 group-hover:bg-green-200 dark:group-hover:bg-green-900/50 transition-colors">

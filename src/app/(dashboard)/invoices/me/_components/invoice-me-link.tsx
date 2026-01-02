@@ -34,7 +34,8 @@ export function InvoiceMeLink({ link, origin }: InvoiceMeLinkProps) {
     },
   );
 
-  const linkUrl = `${origin}/i/${link.id}`;
+  const linkPath = `/i/${link.id}` as const;
+  const linkUrl = `${origin}${linkPath}`;
 
   const copyLink = (url: string) => {
     navigator.clipboard.writeText(url);
@@ -69,7 +70,7 @@ export function InvoiceMeLink({ link, origin }: InvoiceMeLinkProps) {
                   title="Open link"
                 >
                   <Link
-                    href={linkUrl}
+                    href={linkPath}
                     target="_blank"
                     rel="noopener noreferrer"
                   >

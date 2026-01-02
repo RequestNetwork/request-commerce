@@ -55,14 +55,14 @@ export default async function LoginPage() {
             </Link>
             <p className="text-center text-sm text-zinc-500">
               By continuing, you agree to our{" "}
-              <Link
+              <a
                 href={termsUrl}
                 className="underline hover:text-zinc-900"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 Terms and Conditions
-              </Link>
+              </a>
               .
             </p>
           </div>
