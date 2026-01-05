@@ -10,7 +10,7 @@ export default async function NotFound() {
       <div className="max-w-2xl w-full text-center">
         <div className="mb-8">
           <div className="w-16 h-16 rounded-xl bg-foreground flex items-center justify-center mx-auto mb-6">
-            <span className="text-background font-bold text-xl">EI</span>
+            <span className="text-background font-bold text-xl">RC</span>
           </div>
         </div>
 

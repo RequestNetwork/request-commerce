@@ -7,7 +7,7 @@ import { notFound, redirect } from "next/navigation";
 import { getInvoiceMeLink } from "./helpers";
 
 export const metadata: Metadata = {
-  title: "Invoice Me | EasyInvoice",
+  title: "Invoice Me | Request Commerce",
   description: "Create an invoice for a service provider",
 };
 

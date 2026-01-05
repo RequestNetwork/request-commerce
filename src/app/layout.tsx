@@ -24,8 +24,9 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Easy Invoice",
-  description: "Easy Invoice is a simple and secure invoice payment platform.",
+  title: "Request Commerce",
+  description:
+    "Request Commerce is a simple and secure invoice payment platform.",
 };
 
 export default async function RootLayout({
@@ -61,7 +62,7 @@ export default async function RootLayout({
               <Toaster />
             </TooltipProvider>
           </AppKit>
-          <VersionDisplay githubRelease="https://github.com/RequestNetwork/easy-invoice/releases" />
+          <VersionDisplay githubRelease="https://github.com/RequestNetwork/request-commerce/releases" />
         </ThemeProvider>
       </body>
     </html>

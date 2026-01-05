@@ -14,7 +14,7 @@ import {
   uniqueIndex,
 } from "drizzle-orm/pg-core";
 
-export const createTable = pgTableCreator((name) => `easyinvoice_${name}`);
+export const createTable = pgTableCreator((name) => `rncommerce_${name}`);
 
 const encryptionKey = process.env.ENCRYPTION_KEY as string;
 

@@ -885,9 +885,9 @@ export function InvoiceForm({
                   cryptocurrency.
                 </p>
                 <p>
-                  EasyInvoice is a demonstration app only, designed to showcase
-                  Request Network API functionality. Do not use for real
-                  invoicing.
+                  Request Commerce is a demonstration app only, designed to
+                  showcase Request Network API functionality. Do not use for
+                  real invoicing.
                 </p>
               </AlertDescription>
             </Alert>

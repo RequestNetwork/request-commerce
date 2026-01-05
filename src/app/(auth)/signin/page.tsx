@@ -7,7 +7,7 @@ import Link from "next/link";
 import { redirect } from "next/navigation";
 
 export const metadata: Metadata = {
-  title: "EasyInvoice | Simple Invoice Management",
+  title: "Request Commerce | Simple Invoice Management",
   description: "Create, manage and track invoices easily with Request Network",
 };
 
@@ -32,7 +32,7 @@ export default async function LoginPage() {
               EASY TO USE CRYPTO INVOICING
             </div>
             <h1 className="text-4xl font-bold tracking-tight">
-              Welcome to EasyInvoice
+              Welcome to Request Commerce
             </h1>
             <p className="text-zinc-600">
               Easily create and send invoices to your customers using crypto.
