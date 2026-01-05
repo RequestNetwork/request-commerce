@@ -1,8 +1,9 @@
 {
-  "name": "easy-invoice",
+  "name": "request-commerce",
   "description": "A Request Network demo app for easy invoice creation using Request API",
   "version": "0.14.0",
   "license": "MIT",
+  "packageManager": "pnpm@10.0.0",
   "scripts": {
     "dev": "chmod +x dev/dev-startup.sh && ./dev/dev-startup.sh ",
     "build": "SKIP_ENV_VALIDATION=true next build",
