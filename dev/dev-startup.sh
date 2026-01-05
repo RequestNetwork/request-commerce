@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the Docker Compose project name
-PROJECT_NAME="easy-invoice_dev"
+PROJECT_NAME="request-commerce_dev"
 
 # Check if Docker Compose is already running for the project
 running_containers=$(docker compose -p $PROJECT_NAME ps -q)
