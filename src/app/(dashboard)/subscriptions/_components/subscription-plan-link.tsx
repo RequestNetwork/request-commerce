@@ -67,9 +67,8 @@ export function SubscriptionPlanLink({ plan }: SubscriptionPlanLinkProps) {
     BigNumber.from(totalNumberOfSubscribers.toString()),
   );
 
-  const linkUrl = mounted
-    ? `${window.location.origin}/s/${plan.id}`
-    : `/s/${plan.id}`;
+  const linkPath = `/s/${plan.id}` as const;
+  const linkUrl = mounted ? `${window.location.origin}${linkPath}` : linkPath;
 
   const copyLink = (url: string) => {
     navigator.clipboard
@@ -166,7 +165,7 @@ export function SubscriptionPlanLink({ plan }: SubscriptionPlanLinkProps) {
               className="h-8 w-8 p-0 hover:bg-muted"
               title="Open link"
             >
-              <Link href={linkUrl} target="_blank" rel="noopener noreferrer">
+              <Link href={linkPath} target="_blank" rel="noopener noreferrer">
                 <ExternalLink className="h-4 w-4 text-muted-foreground" />
               </Link>
             </Button>

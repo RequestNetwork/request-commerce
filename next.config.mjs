@@ -7,6 +7,10 @@ if (process.env.SKIP_ENV_VALIDATION !== "true") {
 }
 
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  experimental: {
+    typedRoutes: true,
+  },
+};
 
 export default nextConfig;

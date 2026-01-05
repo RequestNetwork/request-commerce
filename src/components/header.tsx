@@ -51,13 +51,13 @@ export function Header({ user }: { user?: User | undefined }) {
                 Ecommerce
               </Link>
               <Link
-                href="/invoice-me"
+                href="/invoices/me"
                 className="text-foreground hover:text-muted-foreground transition-colors"
               >
                 Invoice Me
               </Link>
               <Link
-                href="/subscription-plans"
+                href="/subscriptions"
                 className="text-foreground hover:text-muted-foreground transition-colors"
               >
                 Subscription Plans
@@ -69,14 +69,14 @@ export function Header({ user }: { user?: User | undefined }) {
                 Crypto-to-fiat
               </Link>
               {demoMeetingUrl && (
-                <Link
+                <a
                   href={demoMeetingUrl}
                   className="font-semibold text-foreground underline underline-offset-4 decoration-border hover:text-muted-foreground transition-colors"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   Book A Demo
-                </Link>
+                </a>
               )}
               <UserMenu user={user} />
             </>
@@ -87,13 +87,13 @@ export function Header({ user }: { user?: User | undefined }) {
               asChild
               className="bg-primary hover:bg-primary/80 text-primary-foreground transition-colors"
             >
-              <Link
+              <a
                 href={demoMeetingUrl}
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 Book A Demo
-              </Link>
+              </a>
             </Button>
           )}
           <ModeToggle />

@@ -152,7 +152,7 @@ export default async function HomePage() {
               className="w-full border-highlight/30 hover:bg-highlight/10"
               asChild
             >
-              <Link href="/payments">Manage Payments</Link>
+              <Link href="/payouts">Manage Payments</Link>
             </Button>
           </CardContent>
         </Card>
